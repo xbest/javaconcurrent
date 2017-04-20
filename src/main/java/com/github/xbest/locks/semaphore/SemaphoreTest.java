@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 /**
  * Created by link on 2017/4/18.
  */
-public class SemaphoreExample {
+public class SemaphoreTest {
     private static final int PERMIT_NUM = 2;
     private static final Semaphore PERMITS = new Semaphore(PERMIT_NUM);
 
